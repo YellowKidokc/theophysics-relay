@@ -13,6 +13,12 @@ This document explains every naming convention, every folder piece, every link, 
 
 ---
 
+## Series-specific folder rules
+
+[Math Is Moral folder structure rules](MIM_FOLDER_STRUCTURE_RULES.md) govern the MIM folder pass. For MIM, use that document's Frontside, Backside, depth, and intra-folder numbering rules. The earlier God IS layout in sections 4 and 4b below retains its original context. It is not the MIM migration target.
+
+[Contributor credit and first entries](CONTRIBUTOR_CREDIT.md) defines how meaningful contributions and first crew entries are recorded.
+
 ## 1. THE PUNCTUATION GRAMMAR
 
 Four symbols. Each means one thing. No exceptions.

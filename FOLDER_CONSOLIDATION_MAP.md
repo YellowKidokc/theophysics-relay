@@ -6,6 +6,8 @@
 
 ---
 
+Use the [MIM folder structure rules](MIM_FOLDER_STRUCTURE_RULES.md) for the two-level Frontside limit and the series Backside. This map lists proposed destinations. Review category mergers, duplicated filenames, and link changes before applying them.
+
 ## TAGGING CONVENTION
 
 Before any moves, every folder that's going somewhere gets prefixed with its destination tag so the crew can see on sight what's happening:
