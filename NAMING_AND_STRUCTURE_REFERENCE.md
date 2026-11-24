@@ -343,7 +343,7 @@ G-IS.01.ROOT__BRG.PART-001     ← Bridge: partial match case #1
 
 ## 5b. THE BRIDGE LAYER — SEPARATE FROM CHAPEL
 
-The bridge layer is NOT inside CHAPEL. It is its own folder, its own API call, its own complexity. Bridges are cross-series connections — they link claims across different papers and different series. They have their own grading system (ISO, PART, ANLG, WIT) and their own case files.
+The bridge layer is NOT inside CHAPEL. It is its own folder, its own API call, its own complexity. Bridges are cross-series connections — they link claims across different papers and different series. They have their own grading system (ISO, PART, CON, ANLG, WIT) and their own case files.
 
 **Why separate:**
 - CHAPEL verifies one paper's claims. Bridges connect claims ACROSS papers and series.
@@ -380,12 +380,13 @@ G-IS.01.ROOT__BRG.API.261124-001             ← Bridge API run, Nov 24 2026, ru
 | ISO_P | Phase/state bridge | A phase transition in one domain corresponds to one in another — same critical behavior | Order parameter mapping, universality class check, critical point correspondence |
 | WIT | Theological witness | Independent arrival at the same conclusion from different starting points | Independence demonstration, convergence point specification, no shared derivation path |
 
-**The four grades:**
+**The five grades:**
 
 | Grade | Meaning | Default? |
 |-------|---------|----------|
 | ISO | Full structural isomorphism — formal proof that mapping preserves operations and is predictive | Earned, never assumed |
 | PART | Partial match — mapping holds for some operations, breaks identified | — |
+| CON | Consilience — two independent domains converge on the same structure without coordination | Requires verified independence |
 | ANLG | Analogy — resemblance but not operation-preserving | **DEFAULT** — every bridge starts here |
 | WIT | Independent witness — two paths, same conclusion, no shared premises | Requires independence proof |
 

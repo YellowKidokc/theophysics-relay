@@ -140,7 +140,7 @@ I'm going to be wrong on some of these. The categories need crew review. But her
 
 ---
 
-## 3. THE FOUR GRADES
+## 3. THE FIVE GRADES
 
 Every bridge gets exactly one grade:
 
@@ -148,16 +148,24 @@ Every bridge gets exactly one grade:
 |-------|---------|-------------|
 | **ISO** | Full structural isomorphism | Formal proof that the mapping preserves operations, is predictive in the target domain, and survives substitution |
 | **PART** | Partial match | The mapping holds for some operations but breaks for others; the break points are identified |
+| **CON** | Consilience | Two independent domains converge on the same structure without coordination; the convergence is documented and the independence is verified |
 | **ANLG** | Analogy | The domains share a resemblance but the mapping is not operation-preserving; the resemblance is specified |
 | **WIT** | Independent witness | Two independent derivation paths arrive at the same conclusion from different starting points |
+
+**CON vs ANLG:** An analogy is something you *notice* — a resemblance you point at. A consilience is something that *persists* when you try to break it — two independent systems landing on the same architecture without either one knowing about the other. The test: were the two systems built independently? Do they converge on the same structure? Can you remove one without the other changing? If yes to all three, it's CON. When you formally map a consilience and the mapping holds under operations, it upgrades to PART or ISO.
+
+**CON vs WIT:** WIT is two derivation paths reaching the same conclusion. CON is two classification systems reaching the same organization. WIT is about conclusions; CON is about structure.
+
+**Example:** The Generic Workspace Template (10 areas for organizing any human work) and the Theophysics framework (10 Laws organizing creation) converge on structurally similar organizing principles without coordination. Neither was designed to match the other. That's CON. See `.APICALLS\.Templates\BRIDGE\CONSILIENCE_EXAMPLE_Generic_Workspace_Template.md`.
 
 **Grading rules:**
 1. Default is ANLG until proven otherwise. The burden is on the bridge to earn a higher grade.
 2. ISO requires a formal proof or a formal derivation. "It looks like the same equation" is PART at best.
 3. PART requires identification of exactly where the mapping breaks. "It mostly works" without naming the failure point is ANLG.
-4. WIT requires demonstration of independence. If the derivation path runs through a shared premise, it's not independent.
-5. A bridge can be DOWNGRADED but never UPGRADED without new evidence.
-6. Grade is per-bridge, not per-paper. One paper can have ISO bridges and ANLG bridges.
+4. CON requires verified independence of the two domains. If one was built to match the other, it's ANLG at best.
+5. WIT requires demonstration of independence. If the derivation path runs through a shared premise, it's not independent.
+6. A bridge can be DOWNGRADED but never UPGRADED without new evidence.
+7. Grade is per-bridge, not per-paper. One paper can have ISO bridges and ANLG bridges.
 
 ---
 
