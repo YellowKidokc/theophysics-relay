@@ -824,4 +824,225 @@ Before this document is final, these need rulings:
 
 ---
 
+## 22. MASTER CODE REGISTRY — EVERY SHORT CODE IN ONE PLACE
+
+This is the single lookup table. If a code is not here, it does not exist. If you need a new code, it gets added here first.
+
+### A. SERIES CODES — Identify a collection of papers
+
+| Code | Full Name | Status |
+|------|-----------|--------|
+| G-IS | God Is | Active — hyphen = divine subject |
+| MIM | Math Is Moral | Active (S0042) |
+| ONES | One Story | Active |
+| FPRI | First Principles | Active |
+| GTQ | Genesis to Quantum | Active |
+| DUAL | Duality Project | Active |
+| LOGO | Logos Papers | Active |
+| MEQU | Master Equation | Active |
+| AX | Axiom (parent collection) | Active |
+| LAWS | Ten Laws series | Proposed |
+| INFO | Information Theory series | Proposed |
+| DRV | Derivations series | Proposed |
+| APOL | Apologetics series | Proposed |
+| ESCH | Eschatology series | Proposed |
+| EVID | Evidence series | Proposed |
+
+**Rules:** 2-4 chars. Hyphen if God/Jesus is the subject. Registry-issued only. Once assigned, never changed.
+
+### B. CHAPEL STATION CODES — The ten questions, each a verification station
+
+| Code | Station | Question # |
+|------|---------|-----------|
+| CLS | Claims extraction | Q01 |
+| DEF | Definitions/Foundations | Q02 |
+| PRF | Proof/Derivation | Q03 |
+| EVD | Evidence/Sources | Q04 |
+| A-L4 | Lean 4 formal check | Q05 |
+| A-Z3 | Z3 formal check | Q05 |
+| A-PY | Python computational test | Q06 |
+| RIV | Rival explanations | Q07 |
+| FAL | Falsification conditions | Q08 |
+| LNK | Dependency links | Q09 |
+| ISO | Isomorphism grading (inside CHAPEL) | Q09 |
+| VER | Verdict/Contribution | Q10 |
+| ORB | ORBITS analysis | Strip |
+
+**Rules:** Fixed vocabulary. No new station codes without a governing ruling.
+
+### C. FRONT-SIDE FOLDER CODES — Raw material before CHAPEL
+
+| Code | Name | What it holds |
+|------|------|--------------|
+| RD | Research Dossier | Deep research compiled before writing |
+| TNG | Tangents | Side explorations, support threads |
+| CLE | Claims and Evidence | Raw claims with supporting evidence |
+| MED | Media | Pictures, audio, video, diagrams |
+| YTS | YouTube Scripts | Transcripts and scripts from video sources |
+| PDF | PDF Sources | PDF research sources |
+| AUD | Audio | Sermons, interviews, dictation |
+| VIZ | Visualizations | Matplotlib, diagrams, generated images |
+
+### D. BRIDGE CODES — Cross-domain connection grading
+
+#### D1. Bridge grades (how strong is the connection?)
+
+| Grade | Meaning | Default? |
+|-------|---------|----------|
+| ISO | Full structural isomorphism — formal proof | Earned |
+| PART | Partial match — mapping breaks identified | — |
+| CON | Consilience — independent convergence | Requires independence proof |
+| ANLG | Analogy — resemblance only | **DEFAULT** |
+| WIT | Independent witness — same conclusion, different paths | Requires independence proof |
+
+#### D2. Bridge types (what kind of isomorphism?)
+
+| Code | Type |
+|------|------|
+| ISO_M | Mathematical isomorphism |
+| ISO_G | Grammatical/structural parallel |
+| ISO_E | Empirical correlation |
+| ISO_L | Logical equivalence |
+| ISO_N | Noether/conservation bridge |
+| ISO_P | Phase/state bridge |
+| WIT | Theological witness |
+
+#### D3. Bridge folder code
+
+| Code | Use |
+|------|-----|
+| BRG | Bridge layer folder (sits alongside CHAPEL, not inside it) |
+
+### E. WORKSPACE ROLE CODES — The 21 paper subfolder roles
+
+| # | Code | Full Name |
+|---|------|-----------|
+| 1 | INB | Inbox |
+| 2 | REV | AI Crew and Review |
+| 3 | STR | Structure and Navigation |
+| 4 | CAN | Canonical Selection |
+| 5 | SYN | Paradigm and Synthesis |
+| 6 | CAS | The Case |
+| 7 | HIS | Intellectual History |
+| 8 | MTH | Mathematics and Operators |
+| 9 | THE | Theology and Scripture Context |
+| 10 | TRM | Terms and Definitions |
+| 11 | RES | Research and Sources |
+| 12 | WRT | Writing and Editions |
+| 13 | RDR | Reader Versions and Responses |
+| 14 | STQ | Stories and Quotations |
+| 15 | ORB | ORBITS Analysis |
+| 16 | MED | Media and Assets |
+| 17 | RCP | Runs and Verification Receipts |
+| 18 | PAU | Private Audit |
+| 19 | PUB | Publication and Export |
+| 20 | GAP | Gaps and Next Checks |
+| 21 | SUP | Superseded Editions |
+
+**Rules:** Closed vocabulary. Registry entry required for new roles.
+
+### F. ORBITS STRIP CODES — The six fields on every paper
+
+| Code | Name | What it names |
+|------|------|--------------|
+| O | Operator | What is doing the acting |
+| R | Readout | What can be measured/observed |
+| B | Boundary | What constrains the system |
+| I | Invariant | What cannot change |
+| T | Transition | What moves from state to state |
+| S | State | The configuration at a moment |
+
+### G. ID CLASSES — Permanent identifiers for special objects
+
+| Class | Pattern | Purpose | Status |
+|-------|---------|---------|--------|
+| M#### | M0001–M0005+ | Core equations | Active |
+| L#### | L0001+ | Lean artifacts | Parked — reserved, do not issue |
+
+### H. OBJECT TYPES — What kind of thing a record is
+
+| Type | Definition |
+|------|-----------|
+| paper | Complete argued piece |
+| chapter | Section of a book-length work |
+| axiom | Foundational posited claim |
+| lean | Machine-checked formal file |
+| story | Narrative/declaration-register piece |
+| canon | Canon sheet / ratified statement |
+| audit | Closing audit: held/broke/overstated |
+| harvest | Mined material from transcripts/books |
+| prompt | Station prompt, build prompt, handoff |
+| index | Series index, map, TOC |
+| note | Working note, fragment (temporary) |
+
+### I. STRUCTURAL MARKERS — Folder and file conventions
+
+| Code/Name | What it marks | Where it appears |
+|-----------|--------------|-----------------|
+| `__` | Child-of / belongs-to operator | Everywhere: `G-IS.01.ROOT__CLS` |
+| `-H` | HTML output exists for this station | Suffix: `CLS-H`, `PRF-H` |
+| `.BACKSIDE` | Machine-readable outputs (JSON, HTML builds, receipts) | Hidden folder inside each paper |
+| `DRAFTS` | All working material (numbered 00-98) | Folder inside each paper |
+| `00_NAV.md` | Navigation/index for a paper | Top level of paper folder |
+| `00_AI_README.md` | AI record of structural decisions | Top level of paper folder |
+| `API` | API runs folder | Series level: `G-IS__API/` |
+
+### J. PIPELINE CODES — David-OS v3 processing lanes
+
+| Code | Lane | Owner | What it does |
+|------|------|-------|-------------|
+| SORT | Sort lane | Claude | Corpus matching, belonging, destination proposals |
+| CLASSIFY | Classify lane | Codex | Rename engine, sidecars, series detection, naming |
+| VERIFY | Verify lane | GPT | Pre/post gate matrix, dependency search, anomaly ledger |
+| HOLD | Escalation | Crew/David | Requires human or crew ruling |
+
+### K. SORT DESTINATION GATES — Where sorted files land
+
+| Code | Destination | Meaning |
+|------|------------|---------|
+| OBSIDIAN | Governing vault | File belongs in the active Obsidian structure |
+| ACTIVE_EFFORTS | Live work | File is part of an in-progress effort |
+| B_SERIES | Bounded review | File enters review with an exit date |
+| BACKSIDE | Raw data | File follows its parent paper as raw data |
+| DELETE | Recoverable quarantine | File staged for removal (30-day retention) |
+
+### L. INTRA-FOLDER NUMBER RANGES — What the number prefix means
+
+| Range | Content type |
+|-------|-------------|
+| 00–09 | Drafts in order |
+| 10–19 | Research dossier, source compilations |
+| 20–29 | API call results (readable markdown) |
+| 30–39 | YouTube evaluations, transcript analyses |
+| 40–49 | Outside papers, literature comparisons |
+| 50–59 | Tangents, support threads |
+| 60–69 | Math components, equations, derivation notes |
+| 70–79 | Theology, scripture context, spiritual terms |
+| 80–89 | Media references, visualization notes |
+| 90–94 | Harvests — mined material |
+| 95–98 | Companions — Lean companions, audit files |
+| (no #) | THE FINAL PAPER — named, not numbered |
+
+### M. LEGACY CODES — Old naming still on disk (aliases only)
+
+| Legacy | Maps to | Notes |
+|--------|---------|-------|
+| AX_GI | G-IS | Old God Is series prefix |
+| AX_GI_01_SH_01 | G-IS.01.ROOT | SH = short/shell (old format) |
+| AX_GI_01_IX_00 | G-IS.01.ROOT index | IX = index (old format) |
+| A3_ARCHIVE | DELETE | Old archive destination |
+
+---
+
+**STATUS:** This registry is a WORKING DRAFT. All AIs review and add any codes they use that are missing. When every code used anywhere in the corpus appears in this table, it becomes the locked registry. New codes require a registry entry here before use.
+
+**REVIEW INSTRUCTIONS FOR THE CREW:**
+1. Read every section A–M
+2. Flag any code you use that is NOT listed
+3. Flag any code listed that you think is WRONG
+4. Flag any COLLISION (same code, different meaning in different contexts)
+5. Post your review to the `david-osv3` room
+
+---
+
 *This is a working document. When all AIs agree it is complete and David has signed the open rulings, it becomes the governing reference for the entire corpus. The HTML site is built from this, not the other way around.*
