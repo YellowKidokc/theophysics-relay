@@ -470,7 +470,7 @@ G-IS.01.ROOT__API.261124.BRG-001.json           ← Bridge run, all types (exhau
 
 **Exhaustive by default:** The bridge API call runs on EVERY claim in a paper, checking EVERY bridge type. The cost is negligible. The bridge record (case file with mapping and grades) goes to BRIDGE/. The API receipt (run log) goes to API/. Both are linked by the run ID.
 
-**Open ruling (R1):** The exact literal form of the date/run syntax has three candidates. This document uses `YYMMDD.STATION-SEQ`. The older forms `YYYY.api.MM_DD` and `YYMMDD` are historical. One form needs to win and the others become display aliases.
+**Ruling (R1 — CLOSED Nov 24, 2026):** The literal form is `YYMMDD.STATION-SEQ`. Year first, then month, then day, no separators within the date block. The older forms `YYYY.api.MM_DD` and `PARENT::api.<station>.<run>` are legacy aliases. `::` is retired (fails on Windows, tested Nov 24).
 
 ---
 
